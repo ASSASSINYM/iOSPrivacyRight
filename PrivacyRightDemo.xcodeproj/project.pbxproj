@@ -18,6 +18,17 @@
 		6525C4B12580C86A00050383 /* PrivacyRightDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525C4B02580C86A00050383 /* PrivacyRightDemoTests.m */; };
 		6525C4BC2580C86A00050383 /* PrivacyRightDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525C4BB2580C86A00050383 /* PrivacyRightDemoUITests.m */; };
 		6525C4D02580C87C00050383 /* MTBasePermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525C4CE2580C87C00050383 /* MTBasePermission.m */; };
+		6525C4D92580C9A700050383 /* MTLibraryPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525C4D82580C9A700050383 /* MTLibraryPermission.m */; };
+		6525C4DF2580C9BF00050383 /* MTCameraPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525C4DE2580C9BF00050383 /* MTCameraPermission.m */; };
+		6525C4E52580C9D900050383 /* MTMicrophonePermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525C4E42580C9D900050383 /* MTMicrophonePermission.m */; };
+		6525C4EB2580C9EB00050383 /* MTLocationAllowsPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525C4EA2580C9EB00050383 /* MTLocationAllowsPermission.m */; };
+		6525C4F12580C9FF00050383 /* MTLocationWhenInUsePermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525C4F02580C9FF00050383 /* MTLocationWhenInUsePermission.m */; };
+		6525C4F72580CA1100050383 /* MTCalendarsPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525C4F62580CA1100050383 /* MTCalendarsPermission.m */; };
+		6525C4FD2580CA2300050383 /* MTRemindersPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525C4FC2580CA2300050383 /* MTRemindersPermission.m */; };
+		6525C5032580CA5500050383 /* MTHealthPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525C5022580CA5500050383 /* MTHealthPermission.m */; };
+		6525C5092580CA6500050383 /* MTUserNotificationPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525C5082580CA6500050383 /* MTUserNotificationPermission.m */; };
+		6525C50F2580CA7500050383 /* MTContactsPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525C50E2580CA7500050383 /* MTContactsPermission.m */; };
+		6525C5152580CA8700050383 /* MTNetworkPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525C5142580CA8700050383 /* MTNetworkPermission.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +71,28 @@
 		6525C4CD2580C87C00050383 /* MTBasePermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTBasePermission.h; sourceTree = "<group>"; };
 		6525C4CE2580C87C00050383 /* MTBasePermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTBasePermission.m; sourceTree = "<group>"; };
 		6525C4CF2580C87C00050383 /* MTPermissionConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPermissionConstant.h; sourceTree = "<group>"; };
+		6525C4D72580C9A700050383 /* MTLibraryPermission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTLibraryPermission.h; sourceTree = "<group>"; };
+		6525C4D82580C9A700050383 /* MTLibraryPermission.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTLibraryPermission.m; sourceTree = "<group>"; };
+		6525C4DD2580C9BE00050383 /* MTCameraPermission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTCameraPermission.h; sourceTree = "<group>"; };
+		6525C4DE2580C9BF00050383 /* MTCameraPermission.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTCameraPermission.m; sourceTree = "<group>"; };
+		6525C4E32580C9D900050383 /* MTMicrophonePermission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTMicrophonePermission.h; sourceTree = "<group>"; };
+		6525C4E42580C9D900050383 /* MTMicrophonePermission.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTMicrophonePermission.m; sourceTree = "<group>"; };
+		6525C4E92580C9EB00050383 /* MTLocationAllowsPermission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTLocationAllowsPermission.h; sourceTree = "<group>"; };
+		6525C4EA2580C9EB00050383 /* MTLocationAllowsPermission.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTLocationAllowsPermission.m; sourceTree = "<group>"; };
+		6525C4EF2580C9FF00050383 /* MTLocationWhenInUsePermission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTLocationWhenInUsePermission.h; sourceTree = "<group>"; };
+		6525C4F02580C9FF00050383 /* MTLocationWhenInUsePermission.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTLocationWhenInUsePermission.m; sourceTree = "<group>"; };
+		6525C4F52580CA1100050383 /* MTCalendarsPermission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTCalendarsPermission.h; sourceTree = "<group>"; };
+		6525C4F62580CA1100050383 /* MTCalendarsPermission.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTCalendarsPermission.m; sourceTree = "<group>"; };
+		6525C4FB2580CA2300050383 /* MTRemindersPermission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTRemindersPermission.h; sourceTree = "<group>"; };
+		6525C4FC2580CA2300050383 /* MTRemindersPermission.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTRemindersPermission.m; sourceTree = "<group>"; };
+		6525C5012580CA5500050383 /* MTHealthPermission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTHealthPermission.h; sourceTree = "<group>"; };
+		6525C5022580CA5500050383 /* MTHealthPermission.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTHealthPermission.m; sourceTree = "<group>"; };
+		6525C5072580CA6500050383 /* MTUserNotificationPermission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTUserNotificationPermission.h; sourceTree = "<group>"; };
+		6525C5082580CA6500050383 /* MTUserNotificationPermission.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTUserNotificationPermission.m; sourceTree = "<group>"; };
+		6525C50D2580CA7500050383 /* MTContactsPermission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTContactsPermission.h; sourceTree = "<group>"; };
+		6525C50E2580CA7500050383 /* MTContactsPermission.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTContactsPermission.m; sourceTree = "<group>"; };
+		6525C5132580CA8700050383 /* MTNetworkPermission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTNetworkPermission.h; sourceTree = "<group>"; };
+		6525C5142580CA8700050383 /* MTNetworkPermission.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTNetworkPermission.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +184,28 @@
 				6525C4CD2580C87C00050383 /* MTBasePermission.h */,
 				6525C4CE2580C87C00050383 /* MTBasePermission.m */,
 				6525C4CF2580C87C00050383 /* MTPermissionConstant.h */,
+				6525C4D72580C9A700050383 /* MTLibraryPermission.h */,
+				6525C4D82580C9A700050383 /* MTLibraryPermission.m */,
+				6525C4DD2580C9BE00050383 /* MTCameraPermission.h */,
+				6525C4DE2580C9BF00050383 /* MTCameraPermission.m */,
+				6525C4E32580C9D900050383 /* MTMicrophonePermission.h */,
+				6525C4E42580C9D900050383 /* MTMicrophonePermission.m */,
+				6525C4E92580C9EB00050383 /* MTLocationAllowsPermission.h */,
+				6525C4EA2580C9EB00050383 /* MTLocationAllowsPermission.m */,
+				6525C4EF2580C9FF00050383 /* MTLocationWhenInUsePermission.h */,
+				6525C4F02580C9FF00050383 /* MTLocationWhenInUsePermission.m */,
+				6525C4F52580CA1100050383 /* MTCalendarsPermission.h */,
+				6525C4F62580CA1100050383 /* MTCalendarsPermission.m */,
+				6525C4FB2580CA2300050383 /* MTRemindersPermission.h */,
+				6525C4FC2580CA2300050383 /* MTRemindersPermission.m */,
+				6525C5012580CA5500050383 /* MTHealthPermission.h */,
+				6525C5022580CA5500050383 /* MTHealthPermission.m */,
+				6525C5072580CA6500050383 /* MTUserNotificationPermission.h */,
+				6525C5082580CA6500050383 /* MTUserNotificationPermission.m */,
+				6525C50D2580CA7500050383 /* MTContactsPermission.h */,
+				6525C50E2580CA7500050383 /* MTContactsPermission.m */,
+				6525C5132580CA8700050383 /* MTNetworkPermission.h */,
+				6525C5142580CA8700050383 /* MTNetworkPermission.m */,
 			);
 			path = "隐私权限";
 			sourceTree = "<group>";
@@ -285,10 +340,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				6525C4A72580C86900050383 /* main.m in Sources */,
+				6525C4F72580CA1100050383 /* MTCalendarsPermission.m in Sources */,
 				6525C4992580C86600050383 /* ViewController.m in Sources */,
+				6525C5092580CA6500050383 /* MTUserNotificationPermission.m in Sources */,
+				6525C4EB2580C9EB00050383 /* MTLocationAllowsPermission.m in Sources */,
+				6525C4DF2580C9BF00050383 /* MTCameraPermission.m in Sources */,
+				6525C4FD2580CA2300050383 /* MTRemindersPermission.m in Sources */,
+				6525C4D92580C9A700050383 /* MTLibraryPermission.m in Sources */,
+				6525C4E52580C9D900050383 /* MTMicrophonePermission.m in Sources */,
+				6525C5152580CA8700050383 /* MTNetworkPermission.m in Sources */,
 				6525C4932580C86600050383 /* AppDelegate.m in Sources */,
+				6525C50F2580CA7500050383 /* MTContactsPermission.m in Sources */,
+				6525C5032580CA5500050383 /* MTHealthPermission.m in Sources */,
 				6525C49F2580C86600050383 /* PrivacyRightDemo.xcdatamodeld in Sources */,
 				6525C4D02580C87C00050383 /* MTBasePermission.m in Sources */,
+				6525C4F12580C9FF00050383 /* MTLocationWhenInUsePermission.m in Sources */,
 				6525C4962580C86600050383 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
