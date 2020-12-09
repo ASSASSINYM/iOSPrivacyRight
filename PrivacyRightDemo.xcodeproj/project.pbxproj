@@ -17,6 +17,7 @@
 		6525C4A72580C86900050383 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525C4A62580C86900050383 /* main.m */; };
 		6525C4B12580C86A00050383 /* PrivacyRightDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525C4B02580C86A00050383 /* PrivacyRightDemoTests.m */; };
 		6525C4BC2580C86A00050383 /* PrivacyRightDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525C4BB2580C86A00050383 /* PrivacyRightDemoUITests.m */; };
+		6525C4D02580C87C00050383 /* MTBasePermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525C4CE2580C87C00050383 /* MTBasePermission.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,9 @@
 		6525C4B72580C86A00050383 /* PrivacyRightDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrivacyRightDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6525C4BB2580C86A00050383 /* PrivacyRightDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivacyRightDemoUITests.m; sourceTree = "<group>"; };
 		6525C4BD2580C86A00050383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6525C4CD2580C87C00050383 /* MTBasePermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTBasePermission.h; sourceTree = "<group>"; };
+		6525C4CE2580C87C00050383 /* MTBasePermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTBasePermission.m; sourceTree = "<group>"; };
+		6525C4CF2580C87C00050383 /* MTPermissionConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPermissionConstant.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 		6525C4902580C86600050383 /* PrivacyRightDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6525C4CC2580C87C00050383 /* 隐私权限 */,
 				6525C4912580C86600050383 /* AppDelegate.h */,
 				6525C4922580C86600050383 /* AppDelegate.m */,
 				6525C4942580C86600050383 /* SceneDelegate.h */,
@@ -138,6 +143,16 @@
 				6525C4BD2580C86A00050383 /* Info.plist */,
 			);
 			path = PrivacyRightDemoUITests;
+			sourceTree = "<group>";
+		};
+		6525C4CC2580C87C00050383 /* 隐私权限 */ = {
+			isa = PBXGroup;
+			children = (
+				6525C4CD2580C87C00050383 /* MTBasePermission.h */,
+				6525C4CE2580C87C00050383 /* MTBasePermission.m */,
+				6525C4CF2580C87C00050383 /* MTPermissionConstant.h */,
+			);
+			path = "隐私权限";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +288,7 @@
 				6525C4992580C86600050383 /* ViewController.m in Sources */,
 				6525C4932580C86600050383 /* AppDelegate.m in Sources */,
 				6525C49F2580C86600050383 /* PrivacyRightDemo.xcdatamodeld in Sources */,
+				6525C4D02580C87C00050383 /* MTBasePermission.m in Sources */,
 				6525C4962580C86600050383 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
