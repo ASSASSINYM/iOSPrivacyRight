@@ -16,9 +16,32 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    
     return YES;
 }
 
+
+-(void)applicationWillEnterForeground:(UIApplication *)application {
+    NSLog(@"%s",__func__);
+}
+
+-(void)applicationWillTerminate:(UIApplication *)application {
+    NSLog(@"%s",__func__);
+}
+
+-(void)application:(UIApplication *)application didUpdateUserActivity:(NSUserActivity *)userActivity {
+    NSLog(@"%s",__func__);
+}
+
+-(void)applicationDidBecomeActive:(UIApplication *)application {
+    NSLog(@"%s",__func__);
+}
+
+-(BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey,id> *)launchOptions {
+    NSLog(@"%s",__func__);
+    return YES;
+}
 
 #pragma mark - UISceneSession lifecycle
 

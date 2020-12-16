@@ -6,25 +6,22 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MTPermissionConstant.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MTBasePermission : NSObject
 
 /// 判断权限是否存在
-/// @param permission 权限类型
--(BOOL)determinePermission:(MTPermission)permission;
+-(BOOL)determinePermission;
 
-/// 检测权限是否存在，不存在则请求权限
-/// @param permission 权限类型
+/// 请求权限
 /// @param title 标题
 /// @param description 描述
-/// @param result 请求结果
--(void)requestPermission:(MTPermission)permission
-                   title:(NSString *)title
-             description:(NSString *)description
-           requestResult:(MTRequestResult)result;
-
+/// @param result 请求权限结果
+-(void)requestPermissionWithTitle:(NSString *)title
+                      description:(NSString *)description
+                    requestResult:(MTRequestResult)result;
 
 @end
 

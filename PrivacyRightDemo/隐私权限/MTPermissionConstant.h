@@ -8,6 +8,11 @@
 #ifndef MTPermissionConstant_h
 #define MTPermissionConstant_h
 
+#import <UIKit/UIKit.h>
+
+
+#define MTErrorDomain @"MTErrorDomain"
+
 typedef NS_ENUM(NSInteger,MTPermission) {
     MTPhotoLibrary,//相册
     MTCamera,//相机
@@ -26,6 +31,12 @@ typedef NS_ENUM(NSInteger,MTErrorCode) {
     MTForbidPermission,//禁用
     MTFailureAuthorize,//失败
     MTUnsupportAuthorize//不支持
+};
+
+typedef NS_ENUM(NSInteger,MTPermissionAuthorizationStatus) {
+    MTAuthorizationStatusNotDetermined,  // 第一次请求授权
+    MTAuthorizationStatusAuthorized,     // 已经授权成功
+    MTAuthorizationStatusForbid          // 非第一次请求授权
 };
 
 //回调block
